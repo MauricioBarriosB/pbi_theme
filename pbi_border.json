@@ -1,0 +1,30 @@
+{
+    "name": "MyTheme1",
+    "dataColors": [
+        "#1079c1",
+        "#66afda",
+        "#99c9e6",
+        "#284861",
+        "#536475",
+        "#94a3af",
+        "#bfd3ef",
+        "#bfbfbf",
+        "#7f7f7f",
+        "#404040",
+        "#0d0d0d"
+    ],
+    "background": "#ffffff",
+    "foreground": "#0d0d0d",
+    "tableAccent": "#284861",
+    "visualStyles": {
+        "*": {
+            "*": {
+
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": "#F17925" } }
+                }]
+            }
+        }
+    }
+}

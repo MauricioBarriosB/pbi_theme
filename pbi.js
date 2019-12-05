@@ -12,6 +12,12 @@ const background = '#FFFFFF';
 
 const headerTh = '#00335B';
 
+const backgrGraph = '#F1EFEB';
+
+const backgrAlpha = 0;
+
+const borderGraph = '#00335B';
+
 const dataColors = [
     "#0079C8",
     "#6A2CA1",
@@ -22,10 +28,9 @@ const dataColors = [
     "#178d96",
     "#C6007E",
     "#007780"
-
 ];
 
-const dataColorTest = [
+const dataColorsLLL = [
     "#0069aa",
     "#4f8dc2",
     "#9ab7da",
@@ -38,7 +43,7 @@ const dataColorTest = [
 ];
 /* -------- INIT FONT TEXT VARS: --------  */
 
-const fontFamily = 'Arial'; // 'Segoe UI'
+const fontFamily = 'Segoe UI'; // 
 
 const fontColor = '#373f51';
 
@@ -51,56 +56,51 @@ var themeObject = {
     "dataColors": dataColors,
 
     "visualStyles": {
+        "tableAccent": "#123456",
         "*": {
             "*": {
+
                 "*": [{
-                    "fontSize": 12,
+                    "fontSize": 11,
                     "fontFamily": fontFamily
                 }],
+
                 "title": [{
+                    "fontSize": 10,
                     "show": true,
-                    "fontColor": {
-                        "solid": {
-                            "color": background
-                        }
-                    },
-                    "background": {
-                        "solid": {
-                            "color": headerTh
-                        }
-                    },
+                    "fontColor": { "solid": { "color": background } },
+                    "background": { "solid": { "color": headerTh } },
                     "allignment": "center"
                 }],
+
                 "background": [{
                     "show": true,
-                    "color": {
-                        "solid": {
-                            "color": background
-                        }
-                    },
+                    "color": { "solid": { "color": background } },
                     "transparency": 0
                 }],
+
                 "lockAspect": [{
                     "show": true
                 }],
+
                 "border": [{
                     "show": false
                 }],
+
                 "visualTooltip": [{
                     "type": "Default"
                 }],
+
                 "stylePreset": [{
                     "name": "None"
                 }],
+
                 "labels": [{
-                    "fontColor": {
-                        "solid": {
-                            "color": fontColor
-                        }
-                    }
+                    "fontColor": { "solid": { "color": fontColor } }
                 }]
             }
         },
+
         "page": {
             "*": {
                 "background": [{
@@ -114,19 +114,153 @@ var themeObject = {
             }
         },
 
+        "lineChart": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": backgrGraph } },
+                    "transparency": backgrAlpha
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": borderGraph } }
+                }]
+            }
+        },
+
+        "pieChart": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": backgrGraph } },
+                    "transparency": backgrAlpha
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": borderGraph } }
+                }]
+            }
+        },
+
+        "areaChart": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": backgrGraph } },
+                    "transparency": backgrAlpha
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": borderGraph } }
+                }]
+            }
+        },
+
+        "scatterChart": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": backgrGraph } },
+                    "transparency": backgrAlpha
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": borderGraph } }
+                }]
+            }
+        },
+
+        "waterfallChart": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": backgrGraph } },
+                    "transparency": backgrAlpha
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": borderGraph } }
+                }]
+            }
+        },
+
+        "barChart": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": backgrGraph } },
+                    "transparency": backgrAlpha
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": borderGraph } }
+                }]
+            }
+        },
+
+        "clusteredBarChart": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": backgrGraph } },
+                    "transparency": backgrAlpha
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": borderGraph } }
+                }]
+            }
+        },
+
+        "columnChart": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": backgrGraph } },
+                    "transparency": backgrAlpha
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": borderGraph } }
+                }]
+            }
+        },
+
+        "clusteredColumnChart": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": backgrGraph } },
+                    "transparency": backgrAlpha
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": borderGraph } }
+                }]
+            }
+        },
+
+        "pivotTable": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": backgrGraph } },
+                    "transparency": backgrAlpha
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": borderGraph } }
+                }]
+            }
+        },
 
         "textbox": {
             "*": {
                 "background": [{
                     "show": true,
-                    "color": { "solid": { "color": "#DDDDDD" } },
+                    "color": { "solid": { "color": background } },
                     "transparency": 0
                 }],
                 "visualHeader": [{
-                    "show": true
+                    "show": true,
                 }]
             }
         }
+
+
+
+
+
     }
 }
 

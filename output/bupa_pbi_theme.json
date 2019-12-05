@@ -12,16 +12,18 @@
         "#007780"
     ],
     "visualStyles": {
+        "tableAccent": "#123456",
         "*": {
             "*": {
                 "*": [
                     {
-                        "fontSize": 12,
-                        "fontFamily": "Arial"
+                        "fontSize": 11,
+                        "fontFamily": "Segoe UI"
                     }
                 ],
                 "title": [
                     {
+                        "fontSize": 10,
                         "show": true,
                         "fontColor": {
                             "solid": {
@@ -92,6 +94,246 @@
                 ]
             }
         },
+        "lineChart": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F1EFEB"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#00335B"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "pieChart": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F1EFEB"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#00335B"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "areaChart": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F1EFEB"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#00335B"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "scatterChart": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F1EFEB"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#00335B"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "waterfallChart": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F1EFEB"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#00335B"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "barChart": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F1EFEB"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#00335B"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "clusteredBarChart": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F1EFEB"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#00335B"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "columnChart": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F1EFEB"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#00335B"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "clusteredColumnChart": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F1EFEB"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#00335B"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "pivotTable": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F1EFEB"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#00335B"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
         "textbox": {
             "*": {
                 "background": [
@@ -99,7 +341,7 @@
                         "show": true,
                         "color": {
                             "solid": {
-                                "color": "#DDDDDD"
+                                "color": "#FFFFFF"
                             }
                         },
                         "transparency": 0
