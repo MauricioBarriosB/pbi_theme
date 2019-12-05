@@ -1,0 +1,67 @@
+{
+    "name": "Change fontfamily",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*": [{
+                    "fontSize": 11,
+                    "fontFamily": "Times New Roman"
+                }],
+                "title": [{
+                    "show": true,
+                    "fontColor": {
+                        "solid": {
+                            "color": "#FFFFFF"
+                        }
+                    },
+                    "background": {
+                        "solid": {
+                            "color": "#52351f"
+                        }
+                    },
+                    "allignment": "center"
+                }],
+                "background": [{
+                    "show": true,
+                    "color": {
+                        "solid": {
+                            "color": "#FFFFFF"
+                        }
+                    },
+                    "transparency": 0
+                }],
+                "lockAspect": [{
+                    "show": true
+                }],
+                "border": [{
+                    "show": false
+                }],
+                "visualTooltip": [{
+                    "type": "Default"
+                }],
+                "stylePreset": [{
+                    "name": "None"
+                }],
+                "labels": [{
+                    "fontColor": {
+                        "solid": {
+                            "color": "#000000"
+                        }
+                    }
+                }]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [{
+                    "color": {
+                        "solid": {
+                            "color": "#e6e6e6"
+                        }
+                    },
+                    "transparency": 0
+                }]
+            }
+        }
+    }
+}

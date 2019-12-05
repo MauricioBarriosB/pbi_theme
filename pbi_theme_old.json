@@ -1,0 +1,45 @@
+{
+    "name": "Jan 2018 Theme",
+    "dataColors": [
+        "#0069aa",
+        "#4f8dc2",
+        "#9ab7da",
+        "#cedaec",
+        "#00c762",
+        "#fbe7a6",
+        "#ff544a",
+        "#f89a1c",
+        "#545451"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#545451",
+    "tableAccent": "#4f8dc2",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*": [{
+                    "fontFamily": "Segoe UI"
+                }]
+            }
+        },
+        "*": {
+            "*": {
+                "grid": [{
+                    "outlineColor": { "solid": { "color": "#4f8dc2" } },
+                    "gridVertical": true,
+                    "gridVerticalColor": { "solid": { "color": "#4f8dc2" } },
+                    "gridHorizontal": true,
+                    "gridHorizontalColor": { "solid": { "color": "#4f8dc2" } }
+                }],
+                "columnHeaders": [{
+                    "fontColor": { "solid": { "color": "#ffffff" } },
+                    "backColor": { "solid": { "color": "#0069aa" } },
+                    "fontFamily": "Segoe UI"
+                }],
+                "values": [{
+                    "backColorSecondary": { "solid": { "color": "#cedaec" } }
+                }]
+            }
+        }
+    }
+}

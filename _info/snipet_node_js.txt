@@ -1,0 +1,13 @@
+/*
+
+var fs = require('fs');
+
+// ** Create new mynewfile.txt with Hello content! (excect D:\LOCALHOST\pbi_theme>node pbi_theme.js ):
+
+fs.writeFile('mynewfile.txt', 'Hello content!', function(err) {
+    if (err) throw err;
+    console.log('Saved!');
+});
+
+
+*/

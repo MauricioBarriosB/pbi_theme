@@ -1,0 +1,116 @@
+{
+    "name": "bupa_pbi_theme",
+    "dataColors": [
+        "#0079C8",
+        "#6A2CA1",
+        "#a4219b",
+        "#DB3907",
+        "#942151",
+        "#C1265D",
+        "#178d96",
+        "#C6007E",
+        "#007780"
+    ],
+    "visualStyles": {
+        "*": {
+            "*": {
+                "*": [
+                    {
+                        "fontSize": 12,
+                        "fontFamily": "Arial"
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#00335B"
+                            }
+                        },
+                        "allignment": "center"
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "lockAspect": [
+                    {
+                        "show": true
+                    }
+                ],
+                "border": [
+                    {
+                        "show": false
+                    }
+                ],
+                "visualTooltip": [
+                    {
+                        "type": "Default"
+                    }
+                ],
+                "stylePreset": [
+                    {
+                        "name": "None"
+                    }
+                ],
+                "labels": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#373f51"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "textbox": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#DDDDDD"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": true
+                    }
+                ]
+            }
+        }
+    }
+}
