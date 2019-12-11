@@ -30,7 +30,7 @@ const dataColors = [
     "#007780"
 ];
 
-const dataColorsLLL = [
+const dataColorsNO = [
     "#0069aa",
     "#4f8dc2",
     "#9ab7da",
@@ -41,9 +41,10 @@ const dataColorsLLL = [
     "#f89a1c",
     "#545451"
 ];
+
 /* -------- INIT FONT TEXT VARS: --------  */
 
-const fontFamily = 'Segoe UI'; // 
+const fontFamily = 'Segoe UI'; // Times New Roman
 
 const fontColor = '#373f51';
 
@@ -264,7 +265,7 @@ var themeObject = {
     }
 }
 
-/* -------- CONVERT TO JSON -> WRITE FILE: -------- */
+/* -------- CONVERT TO JSON -> WRITE FILES : -------- */
 
 fs.writeFile('./output/' + themeName + '.json', JSON.stringify(themeObject, null, 4), (error) => {
     if (error) {
