@@ -304,7 +304,6 @@ function fillThemeObject(backgroundPNG) {
 /* -------- CONVERT TO JSON -> WRITE FILES : -------- */
 
 function fsWriteFile(themeObject) {
-
     fs.writeFile('./output/' + themeName + '.json', JSON.stringify(themeObject, null, 4), (error) => {
         if (error) {
             console.error(error);
