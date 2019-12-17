@@ -18,7 +18,7 @@ const background = '#FFFFFF';
 
 const headerTh = '#00335B';
 
-const backgrGraph = '#F1EFEB';
+const backgrGraph = '#FFFFFF'; // '#F1EFEB'
 
 const borderGraph = '#00335B';
 
@@ -33,19 +33,6 @@ const dataColors = [
     "#C6007E",
     "#007780"
 ];
-
-const dataColorsNO = [
-    "#0069aa",
-    "#4f8dc2",
-    "#9ab7da",
-    "#cedaec",
-    "#00c762",
-    "#fbe7a6",
-    "#ff544a",
-    "#f89a1c",
-    "#545451"
-];
-
 
 /* -------- INIT FONT TEXT VARS: --------  */
 
@@ -270,7 +257,34 @@ function fillThemeObject(backgroundPNG) {
                 }
             },
 
+            "lineClusteredColumnComboChart": {
+                "*": {
+                    "background": [{
+                        "color": { "solid": { "color": backgrGraph } },
+                        "transparency": backgrAlpha
+                    }],
+                    "border": [{
+                        "show": true,
+                        "color": { "solid": { "color": borderGraph } }
+                    }]
+                }
+            },
+
             "pivotTable": {
+                "*": {
+                    "background": [{
+                        "color": { "solid": { "color": backgrGraph } },
+                        "transparency": backgrAlpha
+                    }],
+                    "border": [{
+                        "show": true,
+                        "color": { "solid": { "color": borderGraph } }
+                    }]
+                }
+            },
+
+
+            "tableEx": {
                 "*": {
                     "background": [{
                         "color": { "solid": { "color": backgrGraph } },
